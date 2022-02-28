@@ -9,12 +9,12 @@
   dependencies:
     aspida "^1.6.1"
 
-"@aspida/node-fetch@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@aspida/node-fetch/-/node-fetch-1.6.1.tgz#99e2b693282dca5ba31c5366d88901e6e93bc6fb"
-  integrity sha512-doQunTFvnF8Xo3dHYLhanG3YRZF/ce+uU59WkBplcCb3t3SwUtPfrp6M6xA6dXT0FlcEoFNCuidd18PHVh45cQ==
+"@aspida/node-fetch@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@aspida/node-fetch/-/node-fetch-1.8.0.tgz#77a7d53fa64e3e0854ebb7c95d80b9a3aaf52d30"
+  integrity sha512-+GhFu09SIydq8fKAZPt3n2bmudbwnPiIobr2wzC9emJ7jRGWuRB+b/q8BMC6NxNuhYBRb4H7xn2PedKzcPh5lw==
   dependencies:
-    aspida "^1.6.1"
+    aspida "^1.7.1"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -761,10 +761,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/minimist@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
-  integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
+"@types/minimist@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
+  integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/multer@^1.4.5":
   version "1.4.5"
@@ -1189,12 +1189,12 @@ asn1@~0.2.3:
   dependencies:
     safer-buffer "~2.1.0"
 
-aspida@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/aspida/-/aspida-1.6.1.tgz#318c15a88f237983f4f23dd1440391b495d7ec8a"
-  integrity sha512-Q77d8+21/SVFMHzRA2sbsPbmhLr0793/gxlvpM8wCdx6uhk7PzEO69B4vdVOrUr/AxcFWtEQ88zp9fnlmra4zw==
+aspida@^1.6.1, aspida@^1.7.1:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/aspida/-/aspida-1.8.0.tgz#05a4419efd728c08b4fae1c80ae9688653c4b51a"
+  integrity sha512-7LKdtVtsOnYxFdxRy/RKZ9ujVPSFo1XmpEm6kJhDm6Ea5aDuAwd3SZOXBOYFn/Giq61Xk/DxK5Z/CmoL/VUPvg==
   dependencies:
-    "@types/minimist" "^1.2.1"
+    "@types/minimist" "^1.2.2"
     chokidar "^3.5.1"
     form-data "^4.0.0"
     minimist "^1.2.5"
