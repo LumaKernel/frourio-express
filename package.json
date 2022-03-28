@@ -89,7 +89,7 @@
   },
   "devDependencies": {
     "@aspida/axios": "^1.6.1",
-    "@aspida/node-fetch": "^1.6.1",
+    "@aspida/node-fetch": "^1.9.1",
     "@types/express": "^4.17.7",
     "@types/jest": "^26.0.20",
     "@types/multer": "^1.4.5",
